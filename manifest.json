@@ -1,0 +1,67 @@
+{
+    "name": "Team 8-bit",
+    "short_name": "8-bit",
+    "start_url": "/index.html",
+    "theme_color": "#191919",
+    "display": "standalone",
+    "background_color": "#191919",
+    "description": "Team 8-Bit is a FIRST® Robotics Competition Team, composed of 8th - 12th graders, based in Anthem, AZ. We are a student-led, mentor-guided team where everyone feels welcome, is treated as equals, and is encouraged to learn and grow.",
+    "icons": [
+      {
+        "src": "/logos/team/Logo_Large_Black.svg",
+        "sizes": "286x150",
+        "type": "image/svg"
+      },
+      {
+        "src": "/logos/team/Logo_Large_White.svg",
+        "sizes": "286x150",
+        "type": "image/svg"
+      },
+      {
+        "src": "/logos/team/Logo_Large_Green.svg",
+        "sizes": "286x150",
+        "type": "image/svg"
+      },
+      {
+        "src": "/logos/team/Logo_Mid_Black.svg",
+        "sizes": "300x105",
+        "type": "image/svg"
+      },
+      {
+        "src": "/logos/team/Logo_Mid_White.svg",
+        "sizes": "300x105",
+        "type": "image/svg"
+      },
+      {
+        "src": "/logos/team/Logo_Mid_Green.svg",
+        "sizes": "300x105",
+        "type": "image/svg"
+      },
+      {
+        "src": "/logos/team/Logo_Small_Black.svg",
+        "sizes": "86x150",
+        "type": "image/svg"
+      },
+      {
+        "src": "/logos/team/Logo_Small_White.svg",
+        "sizes": "86x150",
+        "type": "image/svg"
+      },
+      {
+        "src": "/logos/team/Logo_Small_Green.svg",
+        "sizes": "86x150",
+        "type": "image/svg"
+      },
+      {
+        "src": "favicon.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/logos/team/Splash.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

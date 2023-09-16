@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="manifest" href="manifest.json" />
+    <title>Team 8-Bit</title>
+    <link href='index.css' rel='stylesheet'>
+    <link rel='icon' href='favicon.png' type='image/png'>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no" /> 
+    <meta name="description" content="Team 8-Bit is a FIRST® Robotics Competition Team, composed of 8th - 12th graders, based in Anthem, AZ. We
+    are a student-led, mentor-guided team where everyone feels welcome, is treated as equals, and is
+    encouraged to learn and grow.">
+    <script>
+        function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+
+            if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+            }else{
+            reveals[i].classList.remove("active");
+            }
+        }
+        }
+        function openNav() {
+            document.getElementById("Sidenav").style.width = "325px";
+        }
+        
+        function closeNav() {
+            document.getElementById("Sidenav").style.width = "0";
+        }
+        window.addEventListener("scroll", reveal);
+    </script>
+</head>
+
+<body>
+    <div class="phone">
+        <div id="Sidenav" class="sidenav">
+          <a onclick="closeNav()"  href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a onclick="closeNav()"  href='#titlepage'>Home</a>
+          <a onclick="closeNav()"  href='#sponsors'>Sponsors</a>
+          <a onclick="closeNav()"  href='#first'>First</a>
+          <a onclick="closeNav()" href='/resources'>resources</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+          
+    </div>
+    <nav>
+        <a href='#titlepage'>
+            <img alt="Small Logo White" src='logos/team/Logo_Small_White.svg'>
+        </a>
+        <h1>Team 8-Bit 9745</h1>
+        <div class="highlight"><a href='#titlepage'>Home</a></div>
+        <div class="highlight"><a href='#sponsors'>Sponsors</a></div>
+        <div class="highlight"><a href='#first'>First</a></div>
+        <div class="highlight"><a href='/resources'>resources</a></div>
+        </div>
+    </nav>
+
+    <div id='titlepage' class='black1'>
+        <div id='about'>
+            <img alt="Large Logo White" src='logos/team/Logo_Large_White.svg'>
+            <div class='squarebox' style='--width: 11; --height: 1;'>
+                <div class='green1'></div>
+                <div></div>
+                <div class='green2'></div>
+                <div></div>
+                <div class='green3'></div>
+                <div></div>
+                <div class='purple3'></div>
+                <div></div>
+                <div class='purple2'></div>
+                <div></div>
+                <div class='purple1'></div>
+            </div>
+            <p>Team 8-Bit is a FIRST® Robotics Competition Team, composed of 8th - 12th graders, based in Anthem, AZ. We
+                are a student-led, mentor-guided team where everyone feels welcome, is treated as equals, and is
+                encouraged to learn and grow. </p>
+        </div>
+
+        <img alt="TeamPicture" id="teampicture" src='images/TeamPicture.jpg'>
+    </div>
+
+    <div id=sponsors class='black2'>
+        <div class='content reveal'>
+            <h2>Our Sponsors</h2>
+            <div>
+                <a href="https://firstinspires.org"><img  alt="First logo" src='logos/sponsors/firstinspires-icon.svg'></a>
+                <a href="https://nasa.gov"><img  alt="NASA logo" src='logos/sponsors/NASA_logo.svg'></a>
+                <a href="https://boeing.com/"><img alt="Boeing logo" src='logos/sponsors/boeing_logo.svg'></a>
+            </div>
+        </div>
+        <div class='squarebox' style='--width: 2; --height: 6;'>
+            <div></div>
+            <div class='purple1'></div>
+            <div class='purple2'></div>
+            <div></div>
+            <div></div>
+            <div class='purple3'></div>
+            <div class='green3'></div>
+            <div></div>
+            <div></div>
+            <div class='green2'></div>
+            <div class='green1'></div>
+        </div>
+    </div>
+
+    <div id='first' class='black1'>
+        <div class='squarebox' style='--width: 3; --height: 7;'>
+            <div class='purple1'></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class='purple1'></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class='purple1'></div>
+            <div></div>
+            <div class='purple1'></div>
+            <div></div>
+            <div class='purple1'></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class='purple1'></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class='purple1'></div>
+        </div>
+        <div class="content reveal">
+            <h2>What is FIRST?</h2>
+            <p>FIRST (For Inspiration and Recognition of Science and Technology) is a mentor-based program that seeks to
+                inspire young people to be inclusive, team-based innovators and technology leaders in science, by
+                building engineering and technology skills, that can inspire innovation, self-confidence, communication,
+                and leadership capabilities. Founded by inventor Dean Kamen over 30 years ago, FIRST helps young people
+                discover the excitement and rewards of both science and technology. We are inspired by his vision “to
+                transform our culture by creating a world where science and technology are celebrated and where young
+                people dream of becoming science and technology leaders." </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <a class="contect-footer" href="mailto:contact@team8bit.com"> Contact us at <pre>contact@team8bit.com</pre></a>
+        <div class="content">
+            <a href='https://www.facebook.com/anthemrobotics/' target="_blank">
+                <img alt="Facebook logo" class="t" src="logos/socialmedia/facebook.svg">
+            </a>
+            <a href='https://www.instagram.com/team.8.bit.az/' target="_blank">
+                <img alt="Instagram logo" class="t" src="logos/socialmedia/instagram.svg">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
