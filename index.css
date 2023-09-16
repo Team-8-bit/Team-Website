@@ -165,6 +165,7 @@ nav img {
 
 #titlepage #teampicture {
     width: 40%;
+    min-width: 40%;
     border-radius: 5px;
     display: inline-block;
     margin: 50px;
