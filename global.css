@@ -93,55 +93,56 @@ nav img {
 
 /* Sidenav */
 
-.phone svg{
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-    padding-top: 2%;
-    padding-right: 3%;
-    position: absolute;
-    top: 0;
-    right: 0px;
+.phone{
+    display: none;
 }
-
-.sidenav {
+  .phone svg{
+    fill: #f3f3f3;
+    height: 50px;
+    padding: 8px;
+    padding-right: 100%;
+    background-color: #191919de;
+    /*border-bottom: solid var(--accent_aqua) 4px;*/
+    /*border-bottom-left-radius: 20%;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+  }
+  .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 101;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-}
-.sidenav a {
+  }
+  .sidenav a {
     padding: 0px 8px 8px 32px;
     text-decoration: none;
     font-size: 35px;
     color: #adadad;
     display: block;
     transition: 0.3s;
-}
-.sidenav a:hover {
+  }
+  .sidenav a:hover {
     color: #eaeaea;
-}
-.sidenav .closebtn {
+  }
+  .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 55px;
     margin-left: 50px;
-}
-
-
-/* Mobile elements */
-
-/* Elements with this class will only be shown when the width of the display is smaller than 1300px */
-.phone {
-    display: none;
-}
-
+  }
+  .sidenav #active{
+    color: #eaeaea;
+  }
 
 /* Footer */
 
