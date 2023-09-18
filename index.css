@@ -138,6 +138,7 @@ nav img {
 #titlepage #about p {
     margin: 20px;
     width: 75%;
+    text-align:start;
 }
 
 #sponsors {
@@ -215,9 +216,11 @@ p {
     font-family: 'Poppins Regular';
     color: var(--primary_white);
     font-size: 23px;
-    text-align: justify;
+    
 }
-
+#first .content p{
+    text-align:start;
+}
 h1,
 h2 {
     font-family: 'Silkscreen';
