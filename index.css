@@ -122,7 +122,7 @@ nav img {
     border-radius: 5px;
     display: inline-block;
     margin: 50px;
-    border: 50px var(--primary_purple) solid
+    border: 3vw var(--primary_purple) solid
 }
 
 #titlepage #about img {
@@ -271,16 +271,22 @@ a {
     opacity: 1;
 }
 
-@media screen and (max-width: 1500px) {
-    #sponsors .squarebox{
-        display: none;
-    }
+@media screen and (max-width: 1700px) {
     #about .squarebox{
         display: none;
     }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
+    #sponsors .squarebox{
+        display: none;
+    }
+    #about{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1400px) {
     *{
         overflow-x: hidden;
     }
@@ -342,7 +348,7 @@ a {
         margin-right: auto;
         width: 80%;
         border-radius: 4px;
-        border: 12px var(--secondary_black) solid;
+        border: 5vw var(--primary_purple) solid;
     }
     #titlepage.black1 div#about img{
         display: block;
