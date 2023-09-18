@@ -28,7 +28,6 @@
 
 .resource {
     width: 450px;
-    height: 350px;
     margin: 25px;
     display: flex;
     flex-direction: column;
@@ -37,6 +36,11 @@
 
 .image.resource {
     margin-bottom: 100px;
+    height: 350px;
+}
+
+.text.resource {
+    height: 200px;
 }
 
 .resource h1 {
@@ -47,12 +51,17 @@
 .image.resource a {
     height: 75%;
     object-fit: contain;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .image.resource a img {
     height: 100%;
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
 }
 
 .text.resource p {
