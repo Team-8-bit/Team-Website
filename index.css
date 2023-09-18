@@ -326,9 +326,10 @@ a {
         display: none;
     }
     #sponsors .content img{
+        object-fit:contain;
         flex-shrink: 0;
-        width: 40%;
-        
+        min-height: 25%;
+        max-width: 92%;
         margin: auto;
         display: block;
     }
