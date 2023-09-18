@@ -269,6 +269,12 @@ a {
     opacity: 1;
 }
 
+@media screen and (max-width: 1500px) {
+    #sponsors .squarebox{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     *{
         overflow-x: hidden;
