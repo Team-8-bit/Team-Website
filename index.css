@@ -43,10 +43,12 @@
 
 
 html {
+    
     scroll-behavior: smooth;
 }
 
 body {
+
     background-color: var(--primary_green);
 }
 
@@ -271,6 +273,9 @@ a {
 
 @media screen and (max-width: 1500px) {
     #sponsors .squarebox{
+        display: none;
+    }
+    #about .squarebox{
         display: none;
     }
 }
