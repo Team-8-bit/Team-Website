@@ -193,9 +193,10 @@
         border: 5vw var(--primary_purple) solid;
     }
 
-    #titlepage.black1 div#about img {
+    #titlepage div#about img {
         display: block;
         width: 70%;
+        margin-top: 10vh;
     }
 
     #about > p:nth-child(3) {
