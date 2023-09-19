@@ -196,7 +196,7 @@
     #titlepage div#about img {
         display: block;
         width: 70%;
-        margin-top: 10vh;
+        margin-top: 10vw;
     }
 
     #about > p:nth-child(3) {
