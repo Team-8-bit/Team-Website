@@ -3,6 +3,7 @@
     margin-top: 50px;
 
     min-height: calc(100vh - 50px);
+    user-select: none;
 }
 
 @media screen and (max-width: 400px) {
