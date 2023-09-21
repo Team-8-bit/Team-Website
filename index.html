@@ -13,30 +13,13 @@
     are a student-led, mentor-guided team where everyone feels welcome, is treated as equals, and is
     encouraged to learn and grow.">
     <script src="scripts.js"></script>
+    <script src="templating.js"></script>
 </head>
 
 <body>
-    <div id="sidenav">
-        <a onclick="closeNav()" href="javascript:void(0)" class="closebtn">&times;</a>
-        <a onclick="closeNav()" href='#titlepage'>Home</a>
-        <a onclick="closeNav()" href='#sponsors'>Sponsors</a>
-        <a onclick="closeNav()" href='#first'>First</a>
-        <a onclick="closeNav()" href='./resources.html'>resources</a>
-    </div>
-    <img class="phone" id="navicon" src="icons/navbaricon.svg" onclick="openNav()" draggable="false">
+<div id="navbar"></div>
 
-    <nav>
-        <a href='#titlepage'>
-            <img alt="Small Logo White" src='logos/team/Logo_Small_White.svg'>
-        </a>
-        <h1>Team 8-Bit 9745</h1>
-        <div class="highlight"><a href='#titlepage'>Home</a></div>
-        <div class="highlight"><a href='#sponsors'>Sponsors</a></div>
-        <div class="highlight"><a href='#first'>First</a></div>
-        <div class="highlight"><a href='./resources.html'>resources</a></div>
-    </nav>
-
-    <div id='titlepage' class='black1'>
+<div id='titlepage' class='black1'>
         <div id='about'>
             <img alt="Large Logo White" src='logos/team/Logo_Large_White.svg'>
             <div class='squarebox' style='--width: 11; --height: 1;'>
@@ -122,15 +105,6 @@
 
     </div>
 
-    <footer>
-        <p>Contact us at contact@team8bit.com</p>
-        <div class="content">
-            <a href="https://www.facebook.com/anthemrobotics/" target="_blank"><img alt="Facebook logo"
-                    src="logos/socialmedia/facebook.svg"></a>
-            <a href="https://www.instagram.com/team.8.bit.az/" target="_blank"><img alt="Instagram logo"
-                    src="logos/socialmedia/instagram.svg"></a>
-        </div>
-    </footer>
+    <div id="footer"></div>
 </body>
-
 </html>
