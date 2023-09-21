@@ -39,7 +39,6 @@
 }
 
 .text.resource {
-    /*height: 200px;*/
     margin-bottom: 50px;
 }
 
@@ -50,10 +49,7 @@
 
 
 .image.resource img {
-    /*height: 100%;*/
-    /*min-width: 100%;*/
-    /*max-width: 100%;*/
-
+    max-width: 75%;
     height: 75%;
     object-fit: contain;
     margin-top: 30px;
