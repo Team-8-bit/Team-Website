@@ -57,15 +57,33 @@
 
 #sponsors .content {
     align-items: center;
-
     display: flex;
     flex-direction: column;
+    margin: 15px;
 }
 
-#sponsors .content div img {
-    height: 400px;
+#sponsors .content div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#sponsors .content div a {
     width: 400px;
+    min-height: 400px;
     margin: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /*margin-bottom: 100px;*/
+}
+
+#sponsors .content div a img {
+    max-width: 85%;
+    height: 85%;
+    object-fit: contain;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #first {
@@ -121,24 +139,12 @@
         overflow-x: hidden;
     }
 
-    nav {
-        display: none;
-    }
-
-    #sponsors {
-        display: block;
-    }
-
     #first {
         display: block;
     }
 
     #titlepage {
         padding-bottom: 16px;
-        display: block;
-    }
-
-    .phone {
         display: block;
     }
 
@@ -157,25 +163,6 @@
     p {
         text-align: left;
         font-size: 18px;
-    }
-
-    #sponsors .squarebox {
-        display: none;
-    }
-
-    #sponsors .content img {
-        object-fit: contain;
-        flex-shrink: 0;
-        min-height: 25%;
-        max-width: 92%;
-        margin: auto;
-        display: block;
-    }
-
-    #sponsors .content h2 {
-        text-align: center;
-        width: 100%;
-        top: 0;
     }
 
     #about .squarebox {
@@ -204,19 +191,15 @@
         padding: 0;
     }
 
-
-    #sponsors .content img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-    }
-
-
     .highlight a {
         font-size: 100%;
         text-align: left;
     }
+
+    #sponsors .squarebox {
+        display: none;
+    }
+
 }
 
 .contect-footer {
