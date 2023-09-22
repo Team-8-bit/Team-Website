@@ -2,73 +2,123 @@
 <html lang="en">
 
 <head>
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="manifest.json"/>
     <title>Team 8-Bit</title>
     <link href='global.css' rel='stylesheet'>
     <link href='resources.css' rel='stylesheet'>
     <link rel='icon' href='favicon.png' type='image/png'>
-    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="description" content="Team 8-Bit is a FIRST® Robotics Competition Team, composed of 8th - 12th graders, based in Anthem, AZ. We
     are a student-led, mentor-guided team where everyone feels welcome, is treated as equals, and is
     encouraged to learn and grow.">
     <script src="scripts.js"></script>
-
     <script src="templating.js"></script>
 </head>
 
 <body>
-    <div id="navbar"></div>
+<div id="navbar"></div>
 
-    <div id="resources" class="black1">
-        <h1 id="title">Team Resources</h1>
-        <div class="resourcecontainer">
-            <div class="image resource">
-                <h1>Onshape</h1>
-                <a href="https://cad.onshape.com/" target="_blank">
-                    <img src="logos/resources/onshape.png" draggable="false">
-                </a>
-            </div>
-            <div class="image resource">
-                <h1>Brand Standards</h1>
-                <a href="https://drive.google.com/drive/u/4/folders/10trfC-2AyoY-wVu5qB2eg9Be9Bh4-Y4c" target="_blank">
-                    <img src="logos/team/Logo_Small_White.svg" draggable="false">
-                </a>
-            </div>
-            <div class="image resource">
-                <h1>GitHub</h1>
-                <a href="https://github.com/Team-8-bit" target="_blank">
-                    <img src="logos/resources/github.svg" draggable="false">
-                </a>
-            </div>
-        </div>
-        <div class="resourcecontainer">
-            <div class="resource">
+<div id="resources" class="black1">
+    <div class="resourcecontainer">
+        <h1 class="title">Resources</h1>
+        <div class="resources">
+            <a class="image resource" href="#team_resources" draggable="false">
+                <h1>Team resources</h1>
+                <img src="logos/team/Logo_Small_White.svg" draggable="false" alt="Team Logo">
+            </a>
+            <a class="image resource" href="#first_resources" draggable="false">
                 <h1>FIRST Resources</h1>
-                <div class="highlight"><a href="https://www.chiefdelphi.com/" target="_blank">
-                        <p>Chief Delphi</p>
-                    </a></div>
-                <div class="highlight"><a href="https://www.thebluealliance.com/" target="_blank">
-                        <p>The Blue Alliance</p>
-                    </a></div>
-                <div class="highlight"><a href="https://www.firstinspires.org/" target="_blank">
-                        <p>FIRST Website</p>
-                    </a></div>
-            </div>
-            <div class="resource">
+                <img src="logos/sponsors/firstinspires.png" draggable="false" alt="Onshape Logo">
+            </a>
+            <a class="image resource" href="#other_resources" draggable="false">
                 <h1>Other Resources</h1>
-                <div class="highlight"><a>
-                        <p>Future Resource</p>
-                    </a></div>
-                <div class="highlight"><a>
-                        <p>Future Resource</p>
-                    </a></div>
-                <div class="highlight"><a>
-                        <p>Future Resource</p>
-                    </a></div>
+                <img src="icons/puzzle.svg" draggable="false" alt="Puzzle Piece">
+            </a>
+        </div>
+    </div>
+    <div id="team_resources" class="resourcecontainer black2">
+        <h1 class="title">Team Resources</h1>
+        <div class="resources">
+            <a class="image resource" href="https://cad.onshape.com/" target="_blank" draggable="false">
+                <h1>Onshape</h1>
+                <img src="logos/resources/onshape.png" draggable="false" alt="Onshape Logo">
+            </a>
+            <a class="image resource" href="https://drive.google.com/file/d/1k4Ec9UIA3P_lpy1jb00zElX5xr5D8pER/view?usp=drive_link" target="_blank" draggable="false">
+                <h1>Brand Standards</h1>
+                <img src="logos/team/Logo_Small_White.svg" draggable="false" alt="Team Logo">
+            </a>
+            <a class="image resource" href="https://github.com/Team-8-bit" target="_blank" draggable="false">
+                <h1>GitHub</h1>
+                <img src="logos/resources/github.svg" draggable="false" alt="Github Logo">
+            </a>
+        </div>
+    </div>
+    <div id="first_resources" class="resourcecontainer">
+        <h1 class="title">FIRST Resources</h1>
+        <div class="resources">
+            <a class="image resource" href="https://www.thebluealliance.com/" target="_blank" draggable="false">
+                <h1>The Blue Alliance</h1>
+                <img src="logos/resources/thebluealliance.svg" draggable="false" alt="The Blue Alliance Logo">
+            </a>
+            <a class="image resource" href="https://www.chiefdelphi.com/" target="_blank" draggable="false">
+                <h1>Chief Delphi</h1>
+                <img src="logos/resources/chiefdelphi.png" draggable="false" alt="Chief Delphi Logo">
+            </a>
+            <a class="image resource" href="https://www.firstinspires.org/" target="_blank" draggable="false">
+                <h1>FIRST</h1>
+                <img src="logos/sponsors/firstinspires.png" draggable="false" alt="FIRST Logo">
+            </a>
+            <a class="image resource" href="https://www.theopenalliance.com/" target="_blank" draggable="false">
+                <h1>The Open Alliance</h1>
+                <img src="logos/resources/theopenalliance.svg" draggable="false" alt="The Open Alliance Logo">
+            </a>
+        </div>
+    </div>
+    <div id="other_resources" class="resourcecontainer black2">
+        <h1 class="title">Other Resources</h1>
+        <div class="resources">
+            <div class="text resource">
+                <h1>FLL Resources</h1>
+                <div class="highlight"><a href="https://flltutorials.com/en/" target="_blank" draggable="false">
+                    FLL Tutorials
+                </a></div>
+                <div class="highlight"><a href="https://ev3lessons.com/en/" target="_blank" draggable="false">
+                    EV3 Lessons
+                </a></div>
+                <div class="highlight"><a href="https://primelessons.org/en/index.html" target="_blank" draggable="false">
+                    Prime Lessons
+                </a></div>
+            </div>
+            <div class="text resource">
+                <h1>CAD Resources</h1>
+                <div class="highlight"><a href="https://appstore.onshape.com/apps/Manufacturers%20Models/2ZT7X5D646R3LM3ZND7LGBTYRVM4SVH6CDDGM6I=/description" target="_blank" draggable="false">
+                    MKCad Library
+                </a></div>
+                <div class="highlight"><a href="https://onshape4frc.com/" target="_blank" draggable="false">
+                    Onshape4FRC
+                </a></div>
+                <div class="highlight"><a href="https://cad.onshape.com/documents/95c00401c440b44ad8799ef5/v/08e9553f1ba9fc5d5a713c47" target="_blank" draggable="false">
+                    Julia's Featurescripts
+                </a></div>
+            </div>
+            <div class="text resource">
+                <h1>STEM Resources</h1>
+                <div class="highlight"><a href="https://www.codecademy.com/learn" target="_blank" draggable="false">
+                    Codecademy
+                </a></div>
+                <div class="highlight"><a href="https://hourofcode.com" target="_blank" draggable="false">
+                    Hour of Code
+                </a></div>
+                <div class="highlight"><a href="https://hourofengineering.com/" target="_blank" draggable="false">
+                    Hour of Engineering
+                </a></div>
+                <div class="highlight"><a href="https://www.firstinspires.org/community/home-learning" target="_blank" draggable="false">
+                    FIRST at Home
+                </a></div>
             </div>
         </div>
     </div>
-
-    <div id="footer"></div>
+</div>
+<div id="footer"></div>
 </body>
 </html>
