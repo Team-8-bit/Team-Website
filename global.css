@@ -225,7 +225,8 @@ p {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Silkscreen';
     color: var(--primary_white);
     font-size: 50px;
@@ -233,6 +234,10 @@ h2 {
     text-decoration: none;
     font-style: normal;
     text-align: center;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 a {
