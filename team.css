@@ -121,7 +121,7 @@
     margin-right: 50px;
     float: right;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .noscroll {
@@ -144,12 +144,14 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-right: -50%;
+    position: fixed;
+    margin: 20px 0;
     transform: translate(-50%, -50%);
     animation: slidein 0.4s ease-in-out;
     display: block;
     opacity: 1;
 }
+
 
 @keyframes slidein {
     0% {
@@ -204,13 +206,13 @@
     right: 10px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 700px) {
     .popup.show {
-        padding-top: 20px;
-        margin: 0 0;
+    
+        padding-top: 25px;
         min-height: 80vh;
         width: 80vw;
-        position: fixed;
+       
     }
     .popup .popupbio{
         margin-left: auto;
@@ -224,19 +226,19 @@
     .popup svg {
         display: none;
     }
-
     .exit {
-        top: -6px;
-        right: 0px;
+        top: -3px;
+        left: 4px;
+        font-size: 24px;
     }
 
     .longdesc {
-        width: 300px;
+        width: 75vw;
         margin: 0;
         margin-top: 8px;
         margin-left: 4%;
         float: none;
         text-align: left;
-        font-size: 18px;
+        font-size: 2vh;
     }
 }
