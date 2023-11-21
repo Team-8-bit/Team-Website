@@ -1,3 +1,11 @@
+# Team 8-BIT Website
+
+## Table of Contents
+- [Setup for testing](#how-to-set-up-the-website-for-testing)
+- [Setup for development](#cloning-a-git-repository-and-creating-a-new-branch-for-development)
+
+
+
 ## How to Set Up the Website for Testing
 
 1. **Using GitHub:**
