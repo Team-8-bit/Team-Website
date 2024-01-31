@@ -43,6 +43,7 @@
 }
 
 .image.sponsor {
+    image-rendering: pixelated;
     margin-bottom: 100px;
     height: 350px;
 }
