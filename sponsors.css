@@ -41,9 +41,7 @@
     flex-direction: column;
     align-items: center;
 }
-.pixel{
-    image-rendering: pixelated;
-}
+
 .image.sponsor {
     
     margin-bottom: 100px;

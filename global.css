@@ -284,7 +284,10 @@ a {
     text-decoration: none;
     font-style: italic;
 }
-
+/* Image */
+.pixel{
+    image-rendering: pixelated;
+}
 
 /* Util */
 
