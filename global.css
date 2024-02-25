@@ -50,18 +50,53 @@ body {
 }
 
 
-.purple1 { background-color: var(--primary_purple);   }
-.purple2 { background-color: var(--secondary_purple); }
-.purple3 { background-color: var(--tertiary_purple);  }
-.green1  { background-color: var(--primary_green);    }
-.green2  { background-color: var(--secondary_green);  }
-.green3  { background-color: var(--tertiary_green);   }
-.white1  { background-color: var(--primary_white);    }
-.white2  { background-color: var(--secondary_white);  }
-.black1  { background-color: var(--primary_black);    }
-.black2  { background-color: var(--secondary_black);  }
-.coral   { background-color: var(--accent_coral);     }
-.aqua    { background-color: var(--accent_aqua);      }
+.purple1 {
+    background-color: var(--primary_purple);
+}
+
+.purple2 {
+    background-color: var(--secondary_purple);
+}
+
+.purple3 {
+    background-color: var(--tertiary_purple);
+}
+
+.green1 {
+    background-color: var(--primary_green);
+}
+
+.green2 {
+    background-color: var(--secondary_green);
+}
+
+.green3 {
+    background-color: var(--tertiary_green);
+}
+
+.white1 {
+    background-color: var(--primary_white);
+}
+
+.white2 {
+    background-color: var(--secondary_white);
+}
+
+.black1 {
+    background-color: var(--primary_black);
+}
+
+.black2 {
+    background-color: var(--secondary_black);
+}
+
+.coral {
+    background-color: var(--accent_coral);
+}
+
+.aqua {
+    background-color: var(--accent_aqua);
+}
 
 
 /* Navbar */
@@ -249,11 +284,15 @@ a {
     text-decoration: none;
     font-style: italic;
 }
-
+/* Image */
+.pixel{
+    image-rendering: pixelated;
+}
 
 /* Util */
 
-.phone { /* Items with this class will display only when the screen width is under 1300px */
+.phone {
+    /* Items with this class will display only when the screen width is under 1300px */
     display: none;
 }
 
