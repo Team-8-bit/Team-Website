@@ -75,9 +75,9 @@
 
 .robot-image {
     width: 100%;
-    max-width: 300px; /* Ensure all images have the same max width */
-    height: 300px; /* Ensure all images have the same height */
-    object-fit: cover; /* Ensure images fill the space without distortion */
+    max-width: 300px;
+    height: 300px; 
+    object-fit: cover; /*This is teh magic stuff right here, making images same size*/
 }
 
 .robot-label {
