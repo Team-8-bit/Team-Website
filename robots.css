@@ -77,7 +77,7 @@
     width: 100%;
     max-width: 300px;
     height: 300px; 
-    object-fit: cover; /*This is teh magic stuff right here, making images same size*/
+    object-fit: contain; /*This is teh magic stuff right here, making images same size*/
 }
 
 .robot-label {
